@@ -1,0 +1,5 @@
+# Please use download-data.sh in the root of this repository to download the data files provided on Kaggle. Be aware that this requires a valid Kaggle API key to work as this is done through the Kaggle API
+
+# The data files can be found at https://www.kaggle.com/c/nfl-big-data-bowl-2022/data
+
+# Note: this file exists solely to preserve the data-raw/ directory on GitHub. The data files are not pushed so that they are not redistributed against competition rules.

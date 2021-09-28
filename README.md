@@ -56,6 +56,14 @@ This script calls the scripts in the `shell-scripts` directory, which download t
 ```big-data-bowl-2022
 ├── data-raw/                        # Raw data files provided for analysis
 │
+├── helpers/
+│   ├── scrape-logos.py              # Scrape logos from ESPN (populates img/team-logos directory)
+│   ├── scrape-wordmarks.py          # Scrape wordmarks from Wikipedia team pages (populates img/team-wordmarks directory)
+│
+├── img/
+│   ├── team-logos/                  # Logo file of each NFL team (from ESPN)
+│   ├── team-wordmarks/              # Wordmarks of each NFL team (from Wikipedia)
+|   
 ├── shell-scripts/
 │   ├── 00-download-and-prep-data.sh # Call the other scripts in this directory to download data
 │   ├── 01-download-data.sh          # Download the data through Kaggle API
@@ -72,7 +80,7 @@ This script calls the scripts in the `shell-scripts` directory, which download t
 └── README.md                        # README for repository
 ```
 
-**Note**: Per the competitions [official rules](https://www.kaggle.com/c/nfl-big-data-bowl-2022/rules), the data cannot be published outside of the competition, and any external data must be made publicly available to all participants. The `data-raw/` directory above contains the publicly available data provided in the competition, as well as a file used to color plots in accordance with team colors.
+**Note**: Per the competition's [official rules](https://www.kaggle.com/c/nfl-big-data-bowl-2022/rules), the data cannot be published outside of the competition, and any external data must be made publicly available to all participants. The `data-raw/` directory above contains the publicly available data provided in the competition, as well as a file used to color plots in accordance with team colors.
 
 ## Author
 

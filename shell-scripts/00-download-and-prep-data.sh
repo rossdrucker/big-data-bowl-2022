@@ -17,6 +17,8 @@ sh shell-scripts/03-clean-data.sh
 
 sh shell-scripts/04-populate-database.sh
 
+sh shell-scripts/05-scrape-logos.sh
+
 end=`date +%s`
 time_taken=$(( $end - $start ))
 formatted_time_taken=$(format_time $time_taken)

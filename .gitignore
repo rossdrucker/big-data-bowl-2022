@@ -1,3 +1,11 @@
 data-raw/*.csv
 *.db
 *.db-journal
+.vscode/
+*.pyc
+img/*.csv
+img/*.png
+img/*.svg
+img/*/*.png
+img/*/*.svg
+

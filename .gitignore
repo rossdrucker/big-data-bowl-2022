@@ -9,3 +9,5 @@ img/*.svg
 img/*/*.png
 img/*/*.svg
 
+.Rproj.user
+.Rproj
